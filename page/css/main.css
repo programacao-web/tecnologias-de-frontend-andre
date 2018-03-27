@@ -96,25 +96,87 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-    #hero {
-        background: url(http://via.placeholder.com/2000x1200?text=HERO+image) no-repeat center center;
-        background-size: cover;
 
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Josefin Slab', 'Times New Roman', Times, serif;
+        letter-spacing: .3em;
     }
 
+    p {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    }
 
+    #hero {
+        background: url(http://via.placeholder.com/2000x1200?text=...) no-repeat center center;
+        background-size: cover;
+        padding: 3em;
+        text-align: center;
+        height: 30vh;
+        vertical-align: middle;
+    }
 
+    header {
+        margin-top: 15vh;
+    }
 
+    .navbar {
+        background-color: rgba(255, 255, 255, .8);
+        position: fixed;
+        top: 0;
+        padding: .3em;
+        width: 99vw;
+    }
 
+    .navbar .nav-logo {
+        display: inline-block;
+    }
 
+    .navbar ul {
+        list-style-type: none;
+        height: inherit;
+        float: right;
+        padding: 0;
+        margin: 1em;
+    }
 
+    .navbar ul li {
+        display: inline-block;
+        height: 1em;
+        text-align: center;
+        vertical-align: middle;
+        line-height: normal;
+        padding: 1em .5em;
+        border: 1px solid transparent;
+    }
 
+    .navbar ul li a {
+        text-decoration: none;
+        color: #111;
+    }
 
+    .navbar ul li:hover {
+        background-color: #eee;
+        border-color: #fefefe;
+    }
 
+    #cards {
+        width: 95vh;
+        margin: auto;
+    }
 
+    #cards .card {
+        display: inline-block;
+    }
 
-
-
+    #cards .card .card-text p {
+        text-align: justify;
+        margin-left: .5em
+    }
 
 
 /* ==========================================================================
