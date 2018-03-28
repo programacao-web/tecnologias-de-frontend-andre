@@ -103,7 +103,7 @@ textarea {
     h4,
     h5,
     h6 {
-        font-family: 'Josefin Slab', 'Times New Roman', Times, serif;
+        font-family: 'Josefin Slab', 'IBM Plex Serif', 'Times New Roman', Times, serif;
         letter-spacing: .3em;
     }
 
@@ -170,12 +170,21 @@ textarea {
     }
 
     #cards .card {
+        margin: 3em auto;
         display: inline-block;
+    }
+
+    #cards .card-icon {
+        font-size: 4em;
+        color: #444;
+        float: middle;
     }
 
     #cards .card .card-text p {
         text-align: justify;
-        margin-left: .5em
+        margin-left: .5em;
+        width: 100%;
+        overflow-wrap: break-word;
     }
 
 
