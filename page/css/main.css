@@ -112,7 +112,7 @@ textarea {
     }
 
     #hero {
-        background: url(http://via.placeholder.com/2000x1200?text=...) no-repeat center center;
+        background: url(http://via.placeholder.com/2000x1200?text=·) no-repeat center center;
         background-size: cover;
         padding: 3em;
         text-align: center;
