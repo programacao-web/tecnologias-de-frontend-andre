@@ -14,80 +14,87 @@
         <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <!-- <link rel="stylesheet" href="css/normalize.css">
+        <!-- <link rel="stylesheet" href="css/main.css"> -->
+        <link rel="stylesheet" href="css/index.css"> -->
+        <link rel="stylesheet" href="css/master.css">
+
     </head>
-    <body>
+    <body class="Arrange-sizeFit">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <nav class="navbar">
-            <div class="nav-logo">
-                <img src="http://via.placeholder.com/140x90?text=Logo" alt="logo">
-            </div>
-            <ul class="nav-link-list">
-                <li class="nav-link">
-                    <a href="#hero">
-                        hero link
-                    </a>
-                </li>
-                <li class="nav-link">
-                    <a href="#lorem">
-                        lorem link
-                    </a>
-                </li>
-                <li class="nav-link">
-                    <a href="#cards">
-                        cards link
-                    </a>
-                </li>
-                <li class="nav-link">
-                    <a href="#depositions">
-                        depositions link
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <navbar>
+            <nav class="Navbar">
+                <div class="Navbar-logo u-sm-size2of12">
+                    <img src="http://via.placeholder.com/70x45?text=Logo" alt="logo">
+                </div>
+                <ul class="Navbar-list u-sm0size10of12">
+                    <li class="Navbar-link">
+                        <a href="#hero">
+                            hero link
+                        </a>
+                    </li>
+                    <li class="Navbar-link">
+                        <a href="#lorem">
+                            lorem link
+                        </a>
+                    </li>
+                    <li class="Navbar-link">
+                        <a href="#cards">
+                            cards link
+                        </a>
+                    </li>
+                    <li class="Navbar-link">
+                        <a href="#depositions">
+                            depositions link
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </navbar>
+
 
         <header id="hero">
-            <div>
-                <h1 class="header-heading">
+            <div class="Header">
+                <h1 class="Header-heading">
                     Ranked Pairs Vote System
                 </h1>
-                <h4 class="header-sub-heading">
-                 Ranked pairs (RP) or the Tideman method is an electoral system developed in 1987 by Nicolaus Tideman that selects a single
-                winner using votes that express preferences.
+                <h4 class="Header-sub-heading">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo doloribus porro, tempore debitis quisquam maxime.
                 </h4>
             </div>
         </header>
 
-        <main>
-            <section id="lorem">
-                <h2>
-                    <span class="fa fa-font"></span> Text Section
-                </h2>
-                <img src="https://via.placeholder.com/480x320?text=this+is+a+image" alt="placeholder image">
-                <p>
-                    <i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</i>Velit, eum neque provident sequi ratione,
-                     ex adipisci recusandae nulla, repellendus quisquam perspiciatis pariatur quis expedita commodi nesciunt optio voluptate quod et!
-                </p>
-                <p>
-                    <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</b>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias magnam aliquid porro perspiciatis debitis,
-                     ducimus fuga reiciendis excepturi amet soluta!
-                    <b>Tempore exercitationem beatae temporibus non fuga</b>, asperiores deleniti laboriosam minus!
-                </p>
-                <img src="https://via.placeholder.com/480x320?text=this+is+a+image" alt="placeholder image">
+        <div class="Container">
+            <section id="lorem" class="u-sm-sizeFull">
+                <div class="u-contAlign-center">
+                    <h2>
+                        <span class="fa fa-font"></span> Text Section
+                    </h2>
+                    <img src="https://via.placeholder.com/480x320?text=this+is+a+image" alt="placeholder image">
+                    <p>
+                        <i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</i>Velit, eum neque provident sequi ratione,
+                         ex adipisci recusandae nulla, repellendus quisquam perspiciatis pariatur quis expedita commodi nesciunt optio voluptate quod et!
+                    </p>
+                    <p>
+                        <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</b>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias magnam aliquid porro perspiciatis debitis,
+                         ducimus fuga reiciendis excepturi amet soluta!
+                        <b>Tempore exercitationem beatae temporibus non fuga</b>, asperiores deleniti laboriosam minus!
+                    </p>
+                    <img src="https://via.placeholder.com/480x320?text=this+is+a+image" alt="placeholder image">
+                </div>
             </section>
 
-            <section id="cards">
+            <section id="Cardboard" class="u-sm-sizeFull">
                 <h2>
                     <span class="fa fa-id-card"></span> Card Section
                 </h2>
-                <div class="card">
-                    <span class="fa fa-book card-icon"></span>
-                    <div class="card-text">
+                <div class="Card">
+                    <span class="fa fa-book Card-icon u-sm-sizeFull u-textCenter"></span>
+                    <div class="Card-text">
                         <p>
                             Cards are a convenient means of displaying content composed of different types of objects. They’re also well-suited for presenting
                             similar objects whose size or supported actions can vary considerably, like photos with captions of variable
@@ -95,9 +102,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="card">
-                    <span class="fa fa-file card-icon"></span>
-                    <div class="card-text">
+                <div class="Card">
+                    <span class="fa fa-file Card-icon u-sm-sizeFull u-textCenter"></span>
+                    <div class="Card-text">
                         <p>
                             Cards are a convenient means of displaying content composed of different types of objects. They’re also well-suited for presenting
                             similar objects whose size or supported actions can vary considerably, like photos with captions of variable
@@ -105,9 +112,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="card">
-                    <span class="fa fa-github card-icon"></span>
-                    <div class="card-text">
+                <div class="Card">
+                    <span class="fa fa-github Card-icon u-sm-sizeFull u-textCenter"></span>
+                    <div class="Card-text">
                         <p>
                             Cards are a convenient means of displaying content composed of different types of objects. They’re also well-suited for presenting
                             similar objects whose size or supported actions can vary considerably, like photos with captions of variable
@@ -115,9 +122,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="card">
-                    <span class="fa fa-gitlab card-icon"></span>
-                    <div class="card-text">
+                <div class="Card">
+                    <span class="fa fa-gitlab Card-icon u-sm-sizeFull u-textCenter"></span>
+                    <div class="Card-text">
                         <p>
                             Cards are a convenient means of displaying content composed of different types of objects. They’re also well-suited for presenting
                             similar objects whose size or supported actions can vary considerably, like photos with captions of variable
@@ -127,42 +134,38 @@
                 </div>
             </section>
 
-            <section id="depositions">
+            <section id="Depositions">
                 <h1>
                     <span class="fa fa-user-plus"></span> Some Depositions
                 </h1>
-                <div>
+                <div class="Deposition-list">
                     <blockquote>
                         This organization is <b>amazing</b>!
                     </blockquote>
-                </div>
-                <div>
                     <blockquote>
                         This organization is <b>trashy</b>!
                     </blockquote>
-                </div>
-                <div>
                     <blockquote>
                         This organization is <b>fine</b>!
                     </blockquote>
                 </div>
             </section>
-        </main>
+        </div>
 
         <nav>
-            <footer>
+            <footer class="Container Footer">
                 <ul>
-                    <li>
+                    <li class="u-sm-sizeFull u-textCenter Footer-item">
                         <span class="fa fa-github"></span> GitHub
                     </li>
-                    <li>
+                    <li class="u-sm-sizeFull u-textCenter Footer-item">
                         <span class="fa fa-gitlab"></span> GitLab
                     </li>
-                    <li>
+                    <li class="u-sm-sizeFull u-textCenter Footer-item">
                         <span class="fa fa-book"></span> FGA
                     </li>
                 </ul>
-                <h4 align="center">
+                <h4 class="u-textCenter">
                     &copy; André de Sousa Costa Filho
                 </h4>
             </footer>

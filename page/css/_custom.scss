@@ -1,0 +1,139 @@
+$light-background: #eee;
+$transparent-white: rgba(255, 255, 255, .8);
+
+
+$header-families: 'Josefin Slab', 'IBM Plex Serif', 'Times New Roman', Times, serif;
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $header-families;
+    letter-spacing: .3em;
+}
+
+p {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section {
+    margin: 2em auto;
+}
+
+blockquote:before,
+blockquote:after {
+    content: '\0022';
+}
+
+.Container {
+    width: 80%;
+    margin: auto;
+    p {
+        margin-left: 0;
+    }
+    img {
+        width: 90% !important;
+        margin: 1em auto;
+    }
+}
+
+
+.Header {
+    margin-top: 15vh;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.Navbar {
+    background-color: $transparent-white;
+    position: fixed;
+    top: 0;
+    padding: .3em;
+    width: 100%;
+    font-size: .8em;
+    .Navbar-logo {
+        display: inline-block;
+    }
+    .Navbar-list {
+        height: inherit;
+        float: right;
+        padding: 0;
+        margin: 1em;
+        .Navbar-link {
+            display: inline-block;
+            height: 1em;
+            text-align: center;
+            vertical-align: middle;
+            line-height: normal;
+            padding: 1em .5em;
+            border: 1px solid transparent;
+        }
+        .Navbar-link a {
+            text-decoration: none;
+            color: #111;
+        }
+
+        .Navbar-link:hover {
+            background-color: $light-background;
+            border-color: #fefefe;
+        }
+    }
+}
+
+.Footer .Footer-item {
+    margin: 1.5em auto;
+}
+
+#Cardboard {
+    width: 95vh;
+    margin: auto;
+    .Card {
+        margin: 3em auto;
+        padding: 1em .1em;
+        background-color: $light-background;
+        box-shadow: 5px 5px 10px #888888;
+        .Card-text p {
+            text-align: justify;
+            width: 100%;
+            overflow-wrap: break-word;
+        }
+    }
+    .Card-icon {
+        font-size: 4em;
+        color: #444;
+        float: middle;
+        margin-bottom: 1em;
+    }
+}
+
+
+
+#hero {
+    background: url(http://via.placeholder.com/2000x1200?text=parallax+hero+image) no-repeat center center;
+    background-size: cover;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 4em;
+    height: 60vh;
+    word-break: normal;
+    background-attachment: fixed;
+}
+
+#Depositions .Deposition-list {
+    margin: 2em auto;
+    blockquote:not(:first-child) {
+        display: none;
+    }
+
+}
+
+.u-contAlign-center {
+    align-content: center;
+}
