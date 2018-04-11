@@ -1,7 +1,7 @@
 $light-background: #eee;
 $transparent-white: rgba(255, 255, 255, .8);
 
-
+$medium-breakpoint: 600px;
 $header-families: 'Josefin Slab', 'IBM Plex Serif', 'Times New Roman', Times, serif;
 
 
@@ -49,6 +49,15 @@ blockquote:after {
     margin-top: 15vh;
     vertical-align: middle;
     text-align: center;
+    @media (min-width: $medium-breakpoint) {
+        h1 {
+            font-size: 3.15em;
+        }
+
+        h4 {
+            font-size: 1.4em;
+        }
+    }
 }
 
 .Navbar {
@@ -92,8 +101,9 @@ blockquote:after {
 }
 
 #Cardboard {
-    width: 95vh;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
     .Card {
         margin: 3em auto;
         padding: 1em .1em;
